@@ -8,7 +8,8 @@ public class Mensagem{
         System.out.println("A minha idade é de " + idade +" anos");
 
         double Media = 7.546;
-        System.out.printf("Média = %.2f",Media + "\n");
+        System.out.printf("Média = %.2f",Media);
+        System.out.println("");
 
         Scanner input = new Scanner(System.in);
 
